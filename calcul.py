@@ -14,6 +14,9 @@ elif operation == "-":
 elif operation == "*":
     resulat = a * b
 elif operation == "/":
+    if b == 0:
+        print("Erreur : division par zéro impossible !")
+        exit()
     resulat = a / b
 else:
     print("Opération inconnue !")
