@@ -1,4 +1,5 @@
 # calcul.py - Calculatrice simple v1
+# ceci est un commentaire de test. 
 print("===Calculatrice Simple===")
 print("Opérations disponibles : +, -, *, /, **")
 print()
