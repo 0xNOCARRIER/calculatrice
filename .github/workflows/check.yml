@@ -16,7 +16,7 @@ jobs:
    - name: Installer Python 3.12
      uses: actions/setup-python@v5
      with:
-     python-version: '3.12'
+      python-version: '3.12'
 
    - name: Vérifer la syntaxe
      run: python -m py_compile calcul.py
